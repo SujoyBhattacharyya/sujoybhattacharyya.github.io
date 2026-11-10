@@ -1,11 +1,11 @@
 ---
-title: "Teaching experience 1"
+title: "Advanced Economic Development"
 collection: teaching
-type: "Undergraduate course"
+type: "MPA"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Columbia University"
+date: "Spring 2026"
+location: 
 ---
 
 This is a description of a teaching experience. You can use markdown like any other post.
