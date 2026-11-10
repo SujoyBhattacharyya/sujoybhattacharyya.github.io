@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD Candidate in the Sustainable Development Program at Columbia University. 
+
