@@ -83,11 +83,12 @@ author:
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
+# Sections appear on the Research page in this order; a paper joins one via its category: field
 publication_category:
-  jmp:
-    title: 'Job Market Paper'
   working:
-    title: 'Working Papers'    
+    title: 'Working Papers'
+  published:
+    title: 'Publications'
   wip:
     title: 'Works in Progress'
 
@@ -125,7 +126,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -222,7 +223,7 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true

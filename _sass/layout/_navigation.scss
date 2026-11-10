@@ -210,7 +210,7 @@
       vertical-align: middle;
 
       &:first-child {
-        font-weight: bold;
+        font-weight: normal; // site name in regular weight (theme default: bold)
         text-wrap: wrap;
 
         a {
@@ -252,11 +252,11 @@
                 transform: scaleX(0); /* hide*/
       }
 
+      /* hover bar under header links turned off (theme default revealed a 4px bar here)
       &:hover:before {
-        -webkit-transform: scaleX(1);
-            -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
+        transform: scaleX(1);
       }
+      */
     }
   }
 

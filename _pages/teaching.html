@@ -7,6 +7,24 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% comment %}
+  One section per course, ordered by most recent term.
+  Each course is a file in _teaching/ with:
+    title  - course name (shown as the heading)
+    terms  - list of terms taught, e.g. ["Spring 2026", "Spring 2025"]
+    date   - date of the most recent term (only used for ordering)
+  Anything written below the closing --- of the file is shown as the description.
+  Courses are not links; individual course pages are turned off in _config.yml.
+{% endcomment %}
+
+{% assign courses = site.teaching | sort: "date" | reverse %}
+{% for course in courses %}
+<div class="teaching-course">
+  <h3 class="teaching-course__title">{{ course.title }}</h3>
+  <p class="teaching-course__terms">{{ course.terms | join: ", " }}</p>
+  {% assign description = course.content | strip %}
+  {% if description != "" %}
+  <div class="teaching-course__description">{{ course.content | markdownify }}</div>
+  {% endif %}
+</div>
 {% endfor %}

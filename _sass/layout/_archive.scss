@@ -243,3 +243,25 @@
     }
   }
 }
+
+/*
+   Teaching page: one section per course (title, terms, description)
+   ========================================================================== */
+
+.teaching-course {
+  margin-bottom: 1.75em;
+
+  .teaching-course__title {
+    margin-top: 0;
+    margin-bottom: 0.2em;
+  }
+
+  .teaching-course__terms {
+    margin: 0 0 0.4em;
+    color: var(--global-text-color-light);
+  }
+
+  .teaching-course__description p {
+    margin: 0 0 0.5em;
+  }
+}
