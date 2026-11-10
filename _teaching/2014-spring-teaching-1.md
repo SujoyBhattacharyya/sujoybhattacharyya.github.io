@@ -4,7 +4,7 @@ collection: teaching
 type: "MPA"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Columbia University"
-date: "Spring 2026"
+date: 2026-01-01
 location: 
 ---
 
