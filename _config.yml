@@ -27,7 +27,7 @@ author:
   name             : "Sujoy Bhattacharyya"
   pronouns         : # example: "she/her"  
   bio              : "PhD Candidate in Sustainable Development"
-  location         : "New York City"
+  location         : # "New York City"
   employer         : "Columbia University"
   uri              : # URL
   email            : "sb4439@columbia.edu" 
